@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon (2).ico">
+    <style>
+        form {
+            border: solid 1px;
+            width: 30%;
+            margin: 0 auto;
+            padding: 20px;
+            height: 60%;
+            box-shadow: 10px 10px 8px 8px rgb(207, 206, 207);
+            background-color: rgb(255, 255, 255);
+        }
+        #Name{
+            padding: 8px 2px;
+            width: 95%;
+        }
+        #Age{
+            padding: 8px 2px;
+            width: 95%;
+        }
+        #Sport{
+            padding: 8px 2px;
+            width: 95%;
+        }
+        #Sports_play{
+            padding: 8px 2px;
+            width: 95%;
+        }
+        #Sports_person{
+            padding: 8px 2px;
+            width: 95%;
+        }
+        #textarea{
+            padding-bottom: 30px;
+            padding-right: 32px;
+            width: 95%;
+        
+        }
+        #Submit_button{
+            background: none;
+            border: none;
+            border-radius: none;
+            padding: 12px 8px;
+            background-color:rgb(4, 121, 4);
+            color: white solid;
+            cursor: pointer;
+            margin: 0 auto;
+            width: 97%; 
+        }
+        #Indoor{
+            border-radius:90%;
+            cursor: pointer;
+        }
+        #Outdoor{
+            cursor: pointer;
+        }
+        #Both{
+            cursor: pointer;
+        }
+        body{
+            background-color: rgb(231, 243, 239);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h1 style="align-items: center;">Survey Form</h1>
+    <label>Name:</label><br>
+    <br>
+    <input type="text" id="Name"><br>
+    <br>
+    <label>Age:</label><br>
+    <br>
+    <input type="number" min="1" max="100" id="Age"><br>
+    <br>
+    <label>Favourite type of sport:</label><br>
+    <br>
+    <input type="checkbox" id="Indoor">
+    <label>Indoor</label><br>
+    <br>
+    <input type="checkbox" id="Outdoor">
+    <label>Outdoor</label><br>
+    <br>
+    <input type="checkbox" id="Both">
+    <label>Both</label><br>
+    <br>
+    <label>Favourite sport to watch:</label><br>
+    <br>
+    <input type="text" id="Sport"><br>
+    <br>
+    <label>Favourite sports to play:</label><br>
+    <br>
+    <input type="text" id="Sports_play"><br>
+    <br>
+    <label>Favourite sports-person:</label><br>
+    <br>
+    <input type="text" id="Sports_person"><br>
+    <br>
+    <label>Your thoughts on sports(optional):</label><br>
+    <br>
+    <textarea name="text1" cols="5" rows="4" id="textarea" maxlength="500char" ></textarea>
+    <br>
+    <button type="submit" id="Submit_button"><a href="response.html">Submit</a></button><br>
+    <br>
+</form>
+</body>
+</html>
